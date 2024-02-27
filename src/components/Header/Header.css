@@ -1,0 +1,61 @@
+/* styles for header */
+
+.header {
+    height: 80px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+    font-family: cursive;
+    box-sizing: border-box;
+    
+}
+
+/* styles for header log-out */
+
+.header-log-out {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* styles for header log-in */
+
+.header-log-in {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.user {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.header-log-in button {
+    padding: 8px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    font-size: 18px;
+}
+
+.header-log-in button:hover {
+    background-color: rgb(245, 245, 245);
+}

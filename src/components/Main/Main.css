@@ -1,0 +1,268 @@
+/* styles for Main page*/
+
+.main {
+    position: relative;
+    width: 60%;
+    min-height: 520px;
+    padding-top: 20px;
+    margin-top: 200px;
+    margin: auto;
+}
+
+/* --------------- style for main-log-out ------------------*/
+
+
+.main-log-out {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* styles for Log In */
+
+.box-log-in {
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 55px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+}
+
+.box-log-in * {
+    font-family: cursive;
+}
+
+.box-log-in form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box-log-in input {
+    width: 250px;
+    display: block;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.box-log-in button {
+    padding: 8px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    font-size: 18px;
+}
+
+.box-log-in button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+/* styles for Sign in */
+
+.box-sign-in {
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.box-sign-in * {
+    font-family: cursive;
+}
+
+.box-sign-in form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box-sign-in input {
+    width: 250px;
+    display: block;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.box-sign-in button {
+    padding: 8px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+    font-size: 18px;
+}
+
+.box-sign-in button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* --------------- style for main-log-in ------------------*/
+
+.main-log-in {
+    width: 100%;
+    margin: auto;
+    min-height: 520px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+/* styles for Main Header Project Out */
+
+.main-log-in .main-header-PO {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-PO button {
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+}
+
+.main-header-PO button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+/* styles for main body project out */
+
+.main-log-in .projectItems {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.projectItems div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.projectItems div:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.projectItems div button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color .4s ease;
+    border: 0;
+    font-size: 18px;
+}
+
+.projectItems div button:hover {
+    color: rgb(238, 25, 25);
+}
+
+/* styles for Main Header Project in */
+
+.main-log-in .main-header-PI {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-PI button {
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 60px;
+    height: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color .4s ease;   
+    font-size: 20px;
+}
+
+.main-header-PI button:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+/* styles for main body project in */
+
+.main-log-in .todo {
+    margin: auto;
+    box-sizing: border-box;
+    color: black;
+    height: 100%;
+}
+
+.todo table {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.todo table tr,td,th {
+    border: 1px solid;
+}
+
+.todo table th {
+    padding: 15px;
+}
+
+.todo table td {
+    padding: 10px;
+}
+
+.todo table td div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo table td div button {
+        background-color: transparent;
+        width: 80px;
+        border: 1px solid gray;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color .4s ease; 
+}
+
+.todo table td div button:hover {
+    background-color: rgb(245, 245, 245);
+}
